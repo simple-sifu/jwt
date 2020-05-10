@@ -1,0 +1,28 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "[jwt decoder](https://jwt.io)",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple-sifu/jwt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simple-sifu/jwt/issues"
+  },
+  "homepage": "https://github.com/simple-sifu/jwt#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
